@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Marvel Heroes</string>
+    <string name="public_key">f89e0976b36b4668a3055bf7c60700de</string>
+    <string name="hash">c1eb1260f6d338e26fd8db96def570a4</string>
+    <string name="base_url">https://gateway.marvel.com/</string>
+
+
+    <string name="title_activity_main">MainActivity</string>
+
+
+    <string name="title_home">Home</string>
+    <string name="title_favorities">Favoritos</string>
+
+
+    <string name="empty_message">Nenhum herói encontrato</string>
+    <string name="no_connection">Sem conexão, tente novamente.</string>
+    <string name="generic_error_message">Não foi póssivel encontrar heróis, tente novamente mais tarde</string>
+    <string name="pagination_hero_error">Falha ao buscar mais heróis</string>
+    <string name="detail_activity">Detalhes do herói</string>
+    <string name="description_title">Descrição</string>
+    <string name="unable_to_favorite_error">Não foi possível favoritar o herói</string>
+    <string name="try_again">Tentar novamente</string>
+    <string name="search">Buscar</string>
+    <string name="error_more_data">Falha ao buscar novos heróis</string>
+    <string name="no_description_provided">Nenhuma descrição fornecida</string>
+    <string name="heroes_fragment_name">Heróis</string>
+    <string name="favorite_heroes_fragment_name">Seus heróis favoritos</string>
+</resources>
+
+

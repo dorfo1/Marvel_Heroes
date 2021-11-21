@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/rodol/AndroidStudioProjects/MarvelHeroes/app/src/main/res/drawable/favorite_check_box.xml" value="0.18263888888888888" />
+        <entry key="..\:/Users/rodol/AndroidStudioProjects/MarvelHeroes/app/src/main/res/drawable/hero_list_background.xml" value="0.19236111111111112" />
+        <entry key="..\:/Users/rodol/AndroidStudioProjects/MarvelHeroes/app/src/main/res/drawable/ic_baseline.xml" value="0.2740740740740741" />
+        <entry key="..\:/Users/rodol/AndroidStudioProjects/MarvelHeroes/app/src/main/res/drawable/ic_favorite.xml" value="0.2740740740740741" />
+        <entry key="..\:/Users/rodol/AndroidStudioProjects/MarvelHeroes/app/src/main/res/drawable/ic_favorite_off.xml" value="0.19236111111111112" />
+        <entry key="..\:/Users/rodol/AndroidStudioProjects/MarvelHeroes/app/src/main/res/drawable/ic_home.xml" value="0.19236111111111112" />
+        <entry key="..\:/Users/rodol/AndroidStudioProjects/MarvelHeroes/app/src/main/res/layout/activity_hero_detail.xml" value="0.12960526315789472" />
+        <entry key="..\:/Users/rodol/AndroidStudioProjects/MarvelHeroes/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/rodol/AndroidStudioProjects/MarvelHeroes/app/src/main/res/layout/adapter_hero_item.xml" value="0.18" />
+        <entry key="..\:/Users/rodol/AndroidStudioProjects/MarvelHeroes/app/src/main/res/layout/adapter_loadstate_hero.xml" value="0.12" />
+        <entry key="..\:/Users/rodol/AndroidStudioProjects/MarvelHeroes/app/src/main/res/layout/fragment_hero_detail.xml" value="0.16" />
+        <entry key="..\:/Users/rodol/AndroidStudioProjects/MarvelHeroes/app/src/main/res/layout/fragment_heroes_detail.xml" value="0.21345628415300547" />
+        <entry key="..\:/Users/rodol/AndroidStudioProjects/MarvelHeroes/app/src/main/res/layout/fragment_heroes_favorities.xml" value="0.28306159420289856" />
+        <entry key="..\:/Users/rodol/AndroidStudioProjects/MarvelHeroes/app/src/main/res/layout/fragment_heroes_list.xml" value="0.1" />
+        <entry key="..\:/Users/rodol/AndroidStudioProjects/MarvelHeroes/app/src/main/res/menu/bottom_nav_menu.xml" value="0.25" />
+        <entry key="..\:/Users/rodol/AndroidStudioProjects/MarvelHeroes/app/src/main/res/menu/menu_search.xml" value="0.23157894736842105" />
+        <entry key="..\:/Users/rodol/AndroidStudioProjects/MarvelHeroes/app/src/main/res/xml/network_security_config.xml" value="0.1" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

@@ -1,0 +1,111 @@
+plugins {
+    id 'com.android.application'
+    id 'kotlin-android'
+    id 'kotlin-parcelize'
+    id 'kotlin-kapt'
+    id 'androidx.navigation.safeargs.kotlin'
+}
+
+android {
+    compileSdk 31
+
+    defaultConfig {
+        applicationId "br.com.marvelheroes"
+        minSdk 21
+        targetSdk 31
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "br.com.marvelheroes.TestAppJUnitRunner"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    kotlinOptions {
+        jvmTarget = '1.8'
+    }
+    buildFeatures {
+        viewBinding true
+    }
+}
+
+dependencies {
+
+    implementation 'androidx.core:core-ktx:1.7.0'
+    implementation 'androidx.appcompat:appcompat:1.3.1'
+    implementation 'com.google.android.material:material:1.4.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.1'
+
+    implementation 'com.github.bumptech.glide:glide:4.11.0'
+    implementation 'androidx.lifecycle:lifecycle-livedata-ktx:2.4.0'
+    implementation 'androidx.lifecycle:lifecycle-viewmodel-ktx:2.4.0'
+
+    implementation "androidx.navigation:navigation-fragment-ktx:$nav_version"
+    implementation "androidx.navigation:navigation-ui-ktx:$nav_version"
+
+    def retrofit = "2.9.0"
+    implementation "com.squareup.retrofit2:retrofit:$retrofit"
+    implementation "com.squareup.retrofit2:converter-gson:$retrofit"
+    implementation("com.squareup.okhttp3:logging-interceptor:4.9.0")
+
+    def koin_version = "2.1.6"
+    implementation "org.koin:koin-core:$koin_version"
+    implementation "org.koin:koin-androidx-scope:$koin_version"
+    implementation "org.koin:koin-androidx-viewmodel:$koin_version"
+    implementation "org.koin:koin-androidx-fragment:$koin_version"
+    implementation "org.koin:koin-androidx-ext:$koin_version"
+    testImplementation "org.koin:koin-test:$koin_version"
+    androidTestImplementation "org.koin:koin-test:$koin_version"
+    androidTestImplementation "org.koin:koin-core:$koin_version"
+    androidTestImplementation "org.koin:koin-androidx-scope:$koin_version"
+
+    def room_version = "2.3.0"
+    implementation "androidx.room:room-runtime:$room_version"
+    implementation "androidx.room:room-ktx:$room_version"
+    annotationProcessor "androidx.room:room-compiler:$room_version"
+    testImplementation "androidx.room:room-testing:$room_version"
+    kapt("androidx.room:room-compiler:$room_version")
+
+    testImplementation 'junit:junit:4.+'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.3'
+    debugImplementation 'androidx.test.espresso:espresso-core:3.4.0'
+    debugImplementation 'androidx.test.espresso:espresso-contrib:3.4.0'
+    debugImplementation "androidx.test.espresso:espresso-intents:3.4.0"
+
+    def fragment_version = "1.2.4"
+    debugImplementation "androidx.fragment:fragment-testing:$fragment_version"
+
+    def paging_version = "3.0.1"
+    implementation "androidx.paging:paging-runtime-ktx:$paging_version"
+
+
+    def livedata_test = "1.2.0"
+    testImplementation "com.jraska.livedata:testing-ktx:$livedata_test"
+
+
+    def mockk_version = "1.9.3"
+    testImplementation "io.mockk:mockk:${mockk_version}"
+    androidTestImplementation "io.mockk:mockk-android:${mockk_version}"
+
+    androidTestImplementation 'com.android.support.test:rules:1.0.2'
+    androidTestImplementation 'com.android.support.test:runner:1.0.2'
+
+    testImplementation "org.jetbrains.kotlinx:kotlinx-coroutines-test:1.4.2"
+
+    def arch_version = "2.1.0"
+    testImplementation "androidx.arch.core:core-testing:${arch_version}"
+    androidTestImplementation "androidx.arch.core:core-testing:${arch_version}"
+
+    def turbine_version = "0.7.0"
+    testImplementation "app.cash.turbine:turbine:$turbine_version"
+
+
+}
